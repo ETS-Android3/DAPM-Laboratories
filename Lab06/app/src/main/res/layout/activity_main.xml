@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#AA99FF"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="386dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="Enter some text here"
+        android:inputType="textPersonName"
+        android:outlineAmbientShadowColor="#FF3399"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:background="@drawable/logo_mov"
+        android:text="SAVE"
+        android:onClick="saveAction"/>
+
+    <Button
+        android:id="@+id/buttonChangeActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO TO SECOND ACTIVITY"
+        android:onClick="changeActivity"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="After saving , on subsequent launch go to second activity without saving. You will still see the saved data."
+        />
+
+</LinearLayout>
