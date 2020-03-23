@@ -26,10 +26,5 @@ public class SecondActivity extends AppCompatActivity {
             TextView textViewIntent = findViewById(R.id.textViewIntent);
             textViewIntent.setText(String.valueOf(getBool));
         }
-
-        File f = getDatabasePath("MyPref.xml");
-
-        if (f != null)
-            System.out.println(f.getAbsolutePath());
     }
 }

@@ -30,5 +30,11 @@ The last saved text remains stored even if the app is re-run, as seen in the GIF
 I had problems changing the title bar color, because I was not aware of the "colors.xml" file.
 I also had a lot of problems getting to the SharedPreferences fle, hence the delay. Unfortunately, I was not able to access it, due to my phone not being rooted.
 
+**Later edit** Although the file path of the "MyPref.xml" file is in the /databases folder of the app, the file can be viewed in Android Studio in the shared_prefs folder, which is accessible from a non-rooted phone as well. This is the form of our XLM file:
+
+![prefs file](xml_ss.png)
+
+I have solved this problems thamks to the TutorialsPoint tutorial linked as bonus in the lab, which can now also be viewed in this repository, in the SharedPreferencesExample folder.
+
  
 
