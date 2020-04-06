@@ -2,4 +2,6 @@ This app highlights the use of the Firebase service to sign up with email and pa
 
 ![incorrect email](ss1.jpeg) ![password too short](ss2.jpeg) ![signup successful](ss3.jpeg)
 
+![firebase account database](ss4.jpeg)
+
 A video demo is the file "demo_video.mp4".
